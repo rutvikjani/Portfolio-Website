@@ -4,6 +4,19 @@ Personal portfolio website with an AI-powered chatbot built on a RAG (Retrieval-
 
 ---
 
+## Why RAG?
+
+This is a simple portfolio website — a basic hardcoded chatbot would have worked fine. 
+But I deliberately built a full RAG pipeline here to showcase my skills in:
+
+- **Retrieval-Augmented Generation (RAG)** — chunking knowledge, TF-IDF scoring, context injection
+- **LLM integration** — connecting Groq (Llama 3.1) via a production-ready API
+- **Backend engineering** — Express, TypeScript, rate limiting, CORS, error handling
+- **AI system design** — thinking about retrieval quality, prompt engineering, and response accuracy
+
+The same RAG architecture scales to much larger knowledge bases — 
+this portfolio is intentionally a small, clean demonstration of the pattern.
+
 ## Project Structure
 
 ```
