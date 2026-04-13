@@ -1,19 +1,8 @@
-# Dependencies
 node_modules/
-
-# Environment variables — NEVER commit this
-.env
-
-# Build output
+.wrangler/
 dist/
-
-# Logs
+.dev.vars
+.env
 *.log
-npm-debug.log*
-
-# OS files
 .DS_Store
 Thumbs.db
-
-# VS Code
-.vscode/

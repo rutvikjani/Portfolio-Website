@@ -1,0 +1,11 @@
+name = "rutvik-rag"
+main = "src/worker.ts"
+compatibility_date = "2024-11-01"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+FRONTEND_ORIGIN = "*"
+
+# After deploying your Netlify site, update FRONTEND_ORIGIN:
+# npx wrangler secret put FRONTEND_ORIGIN
+# Then enter: https://your-site.netlify.app
